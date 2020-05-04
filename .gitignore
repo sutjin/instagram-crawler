@@ -5,6 +5,7 @@
 test.py
 build/
 dist/
+images/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -24,3 +25,4 @@ node_modules/
 secret.py
 inscrawler/bin/*
 !inscrawler/bin/.keep
+!crawlparser/*.py
