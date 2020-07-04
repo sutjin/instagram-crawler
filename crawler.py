@@ -10,7 +10,7 @@ from inscrawler import InsCrawler
 from inscrawler.settings import override_settings
 from inscrawler.settings import prepare_override_settings
 
-from crawlparser.json_parser import get_username_list_from_crawl
+from inscrawler.utils import get_username_list_from_crawl
 
 
 def usage():
