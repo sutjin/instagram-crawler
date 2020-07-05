@@ -184,7 +184,7 @@ class InsCrawler(Logging):
         for image in images:
             count += 1
             src = image.get_attribute('src')
-            urllib.request.urlretrieve(src, './images/temp_' + str(count) + '.jpg')
+            urllib.request.urlretrieve(src, output + '/temp_' + str(count) + '.jpg')
 
 
     def _get_posts_full(self, num):
